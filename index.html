@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>BMI Calculator</title>
+</head>
+
+<body>
+  <section>
+    <div class="card">
+      <div class="container">
+        <div id="heading1" class="heading">Calculate your BMI</div>
+        <p id="p1">Body mass index, or BMI, is used to determine whether you are in a healthy weight range for your
+          height.</p>
+        <div id="results"> </div>
+
+        <div class="guide">
+          <h2>Guide:</h2>
+          <p class="indicator" id="id1">Under Weight i.e Less than 18.6</p>
+          <p class="indicator" id="id2">Normal Range i.e. 18.6 and 24.9</p>
+          <p class="indicator" id="id3">Overweight i.e. Greater than 24.9</p>
+        </div>
+
+        <form action="submit" class="form">
+          <input required="" class="input" type="number" id="weight" placeholder="Enter weight in KG">
+          <input required="" class="input" type="number" id="height" placeholder="Enter height in CM">
+          <input class="button" type="submit" value="Calculate">
+        </form>
+
+      </div>
+
+  </section>
+</body>
+<script src="script.js"></script>
+
+</html>
